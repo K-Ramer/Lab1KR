@@ -14,3 +14,6 @@ for (int fika = 0; fika < APImeny.Length; fika++)
 Console.WriteLine("Här finns " + meny);
 
 Console.WriteLine("För att bli erbjuden den hemliga menyn säg Brownies.");
+string svar = Console.ReadLine();
+if (svar == "Brownies")
+    Console.WriteLine("Liten Medium Stor");
